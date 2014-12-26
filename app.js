@@ -1329,7 +1329,7 @@ function updateScore(_inc) {
     hud.updateScore(gameScore);
 }
 function initGameOver() {
-    window.location.href="objc://"+"gameOver:/0"; //by decamincow
+    // window.location.href="objc://"+"gameOver:/0"; //by decamincow
     gameState = "gameOver";
     if(allowSound) {
         music.volume(.25);
